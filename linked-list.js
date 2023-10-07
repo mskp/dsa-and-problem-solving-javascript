@@ -1,4 +1,4 @@
-class LinkedList {
+export class LinkedList {
 	constructor() {
 		this.head = null;
 		this.size = 0;
@@ -78,14 +78,14 @@ class LinkedList {
 	}
 }
 
-const list = new LinkedList();
-list.insertAtBegin(45);
-list.insertAtBegin(65);
-list.insertAtBegin(70);
-list.insertAtBegin(55);
-list.insertAtBegin(79);
-list.insertAtEnd(66622)
-list.insertAtEnd(42000)
-list.insertAtPos(2222222222, 1)
-console.log(list.toString())
-console.log(`Linked List Size is ${list.size}`)
+// const list = new LinkedList();
+// list.insertAtBegin(45);
+// list.insertAtBegin(65);
+// list.insertAtBegin(70);
+// list.insertAtBegin(55);
+// list.insertAtBegin(79);
+// list.insertAtEnd(66622)
+// list.insertAtEnd(42000)
+// list.insertAtPos(2222222222, 1)
+// console.log(list.toString())
+// console.log(`Linked List Size is ${list.size}`)

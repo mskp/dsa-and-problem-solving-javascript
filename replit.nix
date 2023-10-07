@@ -1,6 +1,7 @@
 { pkgs }: {
 	deps = [
-		pkgs.nano
+		pkgs.sudo
+  pkgs.nano
   pkgs.gh
   pkgs.nodejs-18_x
     pkgs.nodePackages.typescript-language-server
